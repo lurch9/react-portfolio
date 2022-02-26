@@ -1,0 +1,10 @@
+.nav-tabs {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+}
