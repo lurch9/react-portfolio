@@ -1,17 +1,18 @@
-import React from 'react';
+import "../styles/About.css";
 
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Fusce non sem pellentesque erat euismod rhoncus in eu leo. 
-      In hac habitasse platea dictumst. Nam porttitor nulla eget metus lobortis fringilla. 
-      Vestibulum tempus quis lectus rhoncus congue. Phasellus varius ultrices ante eget cursus. 
-      Nunc eu velit justo. Integer ullamcorper quam aliquet tincidunt euismod. Vivamus nec semper tortor. 
-      Ut massa orci, tristique scelerisque eros ut, finibus mollis orci.
-      </p>
-    </div>
+    <>
+      <h1>About Me:</h1>
+      <div className="row justify-content-center py-4">
+        <div className="col-xl-5 col-lg-5 col-md-5 col-11">
+        </div>
+        <div className="col-xl-6 col-lg-6 col-md-6 col-11 py-4">
+          <p>
+            I am a full stack web developer, and I love learning new tools and methods for solving complex problems.
+          </p>
+        </div>
+      </div>
+    </>
   );
 }
