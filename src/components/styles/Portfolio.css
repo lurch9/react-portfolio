@@ -1,0 +1,31 @@
+.portfolio-card-image {
+    height: 200px;
+}
+
+.portfolio-projects-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.portfolio-projects-card div {
+    border: 5px solid rgb(118, 117, 115);
+    padding: 2%;
+    border-radius: 5px;
+    margin: 5% 0%;
+}
+
+.portfolio-projects-card h1{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+.deployed-link {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin-top: 5%;
+}
