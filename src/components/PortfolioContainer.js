@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './styles/Styles.css'
+import Hero from './helpers/Hero'
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -36,9 +38,11 @@ export default function PortfolioContainer() {
       <div>
         
         <NavTabs currentPage={currentPage} handlePageChange={setCurrentPage} />
-        
+        <Hero />
         {renderPage()}
+        <div className='footer'> 
         <Footer />
+        </div>
       </div>
       
     );

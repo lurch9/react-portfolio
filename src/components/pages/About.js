@@ -4,6 +4,7 @@ export default function About() {
   return (
     <>
       <h1>About Me:</h1>
+      <div className="-image"></div>
       <div className="row justify-content-center py-4">
         <div className="col-xl-5 col-lg-5 col-md-5 col-11">
         </div>
